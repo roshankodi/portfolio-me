@@ -1,91 +1,149 @@
-# Edgefolio: A Minimal & Responsive Student Portfolio
+# 🌐 Portfolio Website
 
-A modern, responsive portfolio template built with React JS, designed to showcase skills, projects, and achievements effectively. This template provides a clean and minimalistic design suitable for students and developers.
+A modern and responsive personal portfolio website built with **React.js** and deployed using **GitHub Pages**. This portfolio showcases my projects, technical skills, certifications, and contact information in a clean and interactive interface.
 
-[![Project Screenshot](./src/Assets/thumbnail.jpeg)](https://sandeepruttala.github.io/edgefolio/)
+## 🚀 Live Demo
 
-## 🌐 Live Demo
+🔗 [https://meow-1010.github.io/portfolio-me/](https://meow-1010.github.io/portfolio-me/)
 
-Check out the live version: [https://sandeepruttala.github.io/edgefolio/](https://sandeepruttala.github.io/edgefolio/)
+---
 
-## ✨ Features
+# ✨ Features
 
-- **Responsive Design**: Optimized for mobile and desktop views.
-- **Easy Customization**: Modify data to fit your personal profile just by changing function parameters or props.
-- **Dark Mode**: Dark Mode Available.
-- **React Components**: Organized code structure for quick editing and expansion.
-- **Dynamic Project Showcase**: Easily add and manage project entries.
+* Responsive modern UI
+* Smooth navigation and clean layout
+* Skills section
+* Projects showcase
+* Certifications section
+* Resume download button
+* GitHub & LinkedIn integration
+* Dark mode support
+* GitHub Pages deployment
 
-## 📂 Project Structure
+---
 
-Here's a quick overview of the key files and folders:
+# 🛠️ Tech Stack
 
-- `public/` - Contains static files and images.
-- `src/` - Main React code with component files and styling.
-  - `components/` - Reusable components (Header, About, Projects, etc.)
-  - `App.js` - Main app component where the layout is structured.
-  - `index.js` - Entry point for the React app.
+### Frontend
 
-## 🛠️ Installation
+* React.js
+* JavaScript
+* HTML5
+* CSS3
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/sandeepruttala/edgefolio.git
-   ```
-2. Navigate into the project directory:
-   ```bash
-   cd edgefolio
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-4. Run the development server:
-   ```bash
-   npm start
-   ```
+### Tools & Platforms
 
-## 📋 Usage
+* Git
+* GitHub
+* VS Code
+* GitHub Pages
+* Vercel
 
-Customize the content in the `src/components/` folder. Update information each section (like `About`, `Projects`, etc.) by changing function parameters or props to reflect your personal information and achievements.
+### Cloud & Technologies
 
-## 🚀 Deployment
+* AWS
+* Google Cloud
+* Netlify
 
-To deploy this portfolio on GitHub Pages:
+---
 
-1. Install the `gh-pages` package as a development dependency:
+# 📂 Project Structure
 
-   ```bash
-   npm install gh-pages --save-dev
-   ```
+```bash
+portfolio-me/
+├── public/
+├── src/
+│   ├── Components/
+│   ├── Assets/
+│   ├── App.js
+│   └── index.js
+├── package.json
+└── README.md
+```
 
-2. Add the following `homepage` field to your `package.json` file:
+---
 
-   ```json
-   "homepage": "https://<your-github-username>.github.io/<repository-name>"
-   ```
+# ⚙️ Installation & Setup
 
-3. Update the `scripts` section in `package.json`:
+Clone the repository:
 
-   ```json
-   "scripts": {
-     "predeploy": "npm run build",
-     "deploy": "gh-pages -d build"
-   }
-   ```
+```bash
+git clone https://github.com/meow-1010/portfolio-me.git
+```
 
-4. Deploy the project to GitHub Pages:
+Move into project directory:
 
-   ```bash
-   npm run deploy
-   ```
+```bash
+cd portfolio-me
+```
 
-5. Your portfolio will now be live at `https://<your-github-username>.github.io/<repository-name>`.
+Install dependencies:
 
-## Contact Form API
+```bash
+npm install
+```
 
-The contact form in this template uses [Formspree](https://formspree.io/) to send emails. To receive form submissions, you need to set up your Formspree account and update the form endpoint in the `Components/Contact.jsx` file.
+Run locally:
 
-## 🤝 Contributing
+```bash
+npm start
+```
 
-Feel free to open issues or submit pull requests if you have suggestions for improvements.
+---
+
+# 🚀 Deployment
+
+This project is deployed using GitHub Pages.
+
+Deploy command:
+
+```bash
+npm run deploy
+```
+
+---
+
+# 📸 Screenshots
+
+## Home Page
+
+*Add portfolio screenshots here.*
+
+---
+
+# 📄 Resume
+
+You can download my resume directly from the portfolio website.
+
+---
+
+# 📬 Contact
+
+### 👨‍💻 Roshan Kodi
+
+* 📧 Email: [roshankodi19@gmail.com](mailto:roshankodi19@gmail.com)
+* 💼 LinkedIn: [https://www.linkedin.com/](https://www.linkedin.com/)
+* 🐙 GitHub: [https://github.com/meow-1010](https://github.com/meow-1010)
+
+---
+
+# 🌱 Future Improvements
+
+* Add more real-world projects
+* Improve animations and transitions
+* Add backend integration
+* Add blog section
+* Improve accessibility and SEO
+* Add project filtering and search
+
+---
+
+# ⭐ Support
+
+If you like this project, consider giving it a star on GitHub.
+
+---
+
+# 📜 License
+
+This project is open-source and available under the MIT License.
