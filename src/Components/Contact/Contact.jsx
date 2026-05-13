@@ -1,18 +1,33 @@
-import React from 'react'
-import './Contact.css'
-
 function Contact() {
   return (
     <div className="contact">
-        <h1 className='heading'>{"<Contact />"}</h1>
-         <form className="contact__form" action="https://formspree.io/f/mldengqw" method="POST">
-                <input type="text" placeholder="Name" name="name" required />
-                <input type="email" placeholder="Email" name="_replyto" required />
-                <textarea placeholder="Message" name="message" required></textarea>
-                <button>Send</button>
-        </form>
+      <h1>Contact Me</h1>
+
+      <form action="https://formspree.io/f/mgodqjgw" method="POST">
+        <input
+          type="text"
+          name="name"
+          placeholder="Your Name"
+          required
+        />
+
+        <input
+          type="email"
+          name="email"
+          placeholder="Your Email"
+          required
+        />
+
+        <textarea
+          name="message"
+          placeholder="Your Message"
+          required
+        />
+
+        <button type="submit">Send</button>
+      </form>
     </div>
-  )
+  );
 }
 
-export default Contact
+export default Contact;
