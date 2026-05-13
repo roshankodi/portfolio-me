@@ -123,7 +123,7 @@ You can download my resume directly from the portfolio website.
 
 * 📧 Email: [roshankodi19@gmail.com](mailto:roshankodi19@gmail.com)
 * 💼 LinkedIn: [https://www.linkedin.com/](https://www.linkedin.com/)
-* 🐙 GitHub: [https://github.com/meow-1010](https://github.com/meow-1010)
+* 🐙 GitHub: [https://github.com/roshankodi](https://github.com/roshankodi)
 
 ---
 
