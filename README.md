@@ -4,8 +4,6 @@ A modern and responsive personal portfolio website built with **React.js** and d
 
 ## 🚀 Live Demo
 
-🔗 ## 🚀 Live Demo
-
 🔗 https://roshankodi.github.io/portfolio-me/
 
 ---
