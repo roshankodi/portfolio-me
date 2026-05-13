@@ -4,7 +4,9 @@ A modern and responsive personal portfolio website built with **React.js** and d
 
 ## 🚀 Live Demo
 
-🔗 [https://meow-1010.github.io/portfolio-me/](https://meow-1010.github.io/portfolio-me/)
+🔗 ## 🚀 Live Demo
+
+🔗 https://roshankodi.github.io/portfolio-me/
 
 ---
 
@@ -68,7 +70,7 @@ portfolio-me/
 Clone the repository:
 
 ```bash
-git clone https://github.com/meow-1010/portfolio-me.git
+git clone https://github.com/roshankodi/portfolio-me.git
 ```
 
 Move into project directory:
