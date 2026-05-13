@@ -4,7 +4,7 @@ import '../../Global.css'
 function Footer() {
   return (
     <div className="footer">
-        <p>&copy; Kodi Roshan, 2024</p>
+        <p>&copy; Kodi Roshan, 2026</p>
     </div>
   )
 }
