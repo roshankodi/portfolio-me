@@ -122,7 +122,7 @@ You can download my resume directly from the portfolio website.
 ### 👨‍💻 Roshan Kodi
 
 * 📧 Email: [roshankodi19@gmail.com](mailto:roshankodi19@gmail.com)
-* 💼 LinkedIn: [https://www.linkedin.com/](https://www.linkedin.com/)
+* 💼 LinkedIn: [https://www.linkedin.com/in/kodi-roshan-78858b356/](https://www.linkedin.com/in/kodi-roshan-78858b356/)
 * 🐙 GitHub: [https://github.com/roshankodi](https://github.com/roshankodi)
 
 ---
