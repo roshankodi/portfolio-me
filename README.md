@@ -107,7 +107,7 @@ npm run deploy
 
 ## Home Page
 
-*Add portfolio screenshots here.*
+![Portfolio Screenshot](./src/Assets/thumbnails.jpeg)
 
 ---
 
