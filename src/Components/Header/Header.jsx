@@ -4,7 +4,7 @@ import './Header.css'
 import Pill from '../Pill/Pill'
 import { Link } from 'react-scroll'
 
-function Header({ name = "John Doe" }) {
+function Header({ name = "Roshan" }) {
   const [menuOpen, setMenuOpen] = useState(false)
 
   const toggleMenu = () => {
