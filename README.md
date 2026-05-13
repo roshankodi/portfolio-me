@@ -107,7 +107,7 @@ npm run deploy
 
 ## Home Page
 
-![Portfolio Screenshot](./thumbnails.jpeg)
+![Portfolio Screenshot](./thumbnail.jpeg)
 
 ---
 
