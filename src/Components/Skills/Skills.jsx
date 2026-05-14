@@ -7,10 +7,11 @@ function Skills({
   programming_languages = ["JavaScript", "Python", "Java", "C++", "C", "MySQL"],
   database = ["MongoDB", "MySQL", "Firebase"],
   web_technologies = ["HTML", "CSS", "React", "Node.js", "Express"],
-  frameworks = ["Bootstrap", "Material-UI", "jQuery"],
+  frameworks = ["reactjs", "bootstrap", "firebase", "reactjs", "vite"],
   tools = ["Git", "VS Code", "Cursor", "Jupyter"],
   cloud = ["AWS", "Google Cloud", "Vercel", "Netlify"],
   soft = ["Problem-Solving", "Critical-Thinking", "Adaptability", "Creativity", "Team-work", "Consistency"],
+  AI = ["PyTorch", "openai", "tensorflow", "genai", "NumPy", "Pandas", "Scikit-learn"],
 }) {
   return (
     <div className="skills">
@@ -25,6 +26,8 @@ function Skills({
         <SkillContainer title="Frameworks" skills={frameworks} />
         <SkillContainer title="Tools" skills={tools} />
         <SkillContainer title="Cloud" skills={cloud} />
+        <SkillContainer title="soft" skills={soft} />
+        <SkillContainer title="AI" skills={AI} />
     </div>
     </div>
   );
