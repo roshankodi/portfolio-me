@@ -5,12 +5,12 @@ import SkillContainer from "./SkillContainer";
 
 function Skills({
   programming_languages = ["JavaScript", "Python", "Java", "C++", "C", "MySQL"],
-  database = ["MongoDB", "MySQL", "Firebase"],
+  database = ["MongoDB", "MySQL", "Firebase", "PostgreSQL", "Oracle SQL"],
   web_technologies = ["HTML", "CSS", "React", "Node.js", "Express"],
   frameworks = ["reactjs", "bootstrap", "firebase", "reactjs", "vite"],
-  tools = ["Git", "VS Code", "Cursor", "Jupyter"],
-  cloud = ["AWS", "Google Cloud", "Vercel", "Netlify"],
-  soft = ["Problem-Solving", "Critical-Thinking", "Adaptability", "Creativity", "Team-work", "Consistency"],
+  tools = ["Git", "GitHub", "VS Code", "Cursor", "Jupyter", "Docker"],
+  cloud = ["AWS", "Google Cloud", "Vercel", "Netlify", "Firebase"],
+  soft = ["Problem-Solving", "Critical-Thinking", "Adaptability", "Team-work", "Consistency"],
   AI = ["PyTorch", "openai", "tensorflow", "genai", "NumPy", "Pandas", "Scikit-learn"],
 }) {
   return (
@@ -27,7 +27,7 @@ function Skills({
         <SkillContainer title="Tools" skills={tools} />
         <SkillContainer title="Cloud" skills={cloud} />
         <SkillContainer title="soft" skills={soft} />
-        <SkillContainer title="AI" skills={AI} />
+        <SkillContainer title="AI/ML" skills={AI} />
     </div>
     </div>
   );
