@@ -5,8 +5,8 @@ import Pill from "../Pill/Pill";
 
 function Hero({
   name = "Kodi Roshan",
-  role = "Computer Science Engineer",
-  description = "Passionate about creating modern web experiences, exploring AI technologies, solving problems, and continuously learning through hands-on projects. I am currently seeking new opportunities to grow my skills and contribute to a team.",
+  role = "CS Engineer | Full Stack Developer | AI Enthusiast",
+  description = "I’m a Computer Science student passionate about building modern web applications, exploring AI and cloud technologies, and solving real-world problems, continuously learning through hands-on projects. I am currently seeking new opportunities to grow my skills and contribute to a team.",
   email = "roshankodi019@gmail.com",
   mobile = "+91 8985797819",
   linkedin = "https://www.linkedin.com/in/kodi-roshan-78858b356/",
