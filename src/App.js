@@ -35,9 +35,9 @@ function App(card) {
         </button>
         <Header />
         <Hero card={card} />
+         <About />
         <Skills />
         <Projects />
-        <About />
         <Certifications />
         <Contact />
         <Footer />

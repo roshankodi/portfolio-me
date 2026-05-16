@@ -21,7 +21,7 @@ function Hero({
           <img src={Avatar} alt="Avatar" />
         </div>
         <a href={resume} target="_blank" rel="noreferrer">
-        <Pill content="View Résumé" color="invert" />
+        <Pill content="View Resume" color="invert" />
         </a>
       </div>
 

@@ -14,13 +14,13 @@ function Education() {
             description: "Jawaharlal Nehru Technological University of Hyderabad (JNTUH)"
             },
             {
-            date: "2018 - 2019",
-            title: "Senior Secondary Education",
+            date: "2022 - 2024",
+            title: "Central Board of Secondary Education (CBSE) -MBIPC",
             description: "Kendriya Vidyalaya, CRPF"
             },
             {
-            date: "2018",
-            title: "School Education (1-10)",
+            date: "2022",
+            title: "Central Board of Secondary Education (CBSE)",
             description: "Kendriya Vidyalaya, CRPF"
             }
         ]} />

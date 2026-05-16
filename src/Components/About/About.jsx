@@ -13,7 +13,7 @@ function About() {
         <Education />
         <Interests interests={["Web Development", "Data Science", "Full-Stack Development"
         , "Machine Learning", "Artificial Intelligence", "Cloud Computing (AWS)"]} />
-        <Hobbies hobbies={["Reading", "Writing", "Playing Guitar", "Playing Badminton", "Listening to Music", "Playing video games"]} />
+        <Hobbies hobbies={["Reading", "Writing", "Playing Guitar", "Cooking", "Playing Badminton", "Listening to Music", "Playing video games"]} />
       </div>
     </div>
   );

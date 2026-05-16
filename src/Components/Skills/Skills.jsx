@@ -4,10 +4,11 @@ import "./Skills.css";
 import SkillContainer from "./SkillContainer";
 
 function Skills({
-  programming_languages = ["JavaScript", "Python", "Java", "C++", "C", "MySQL"],
+  programming_languages = ["Python", "Java", "Javascript", "C", "C++", "SQL"],
+  Fundamentals = ["DSA", "OOP", "DBMS", "OS", "CNS", "SE principles", "Designs"],
   database = ["MongoDB", "MySQL", "Firebase", "PostgreSQL", "Oracle SQL"],
-  web_technologies = ["HTML", "CSS", "React", "Node.js", "Express"],
-  frameworks = ["reactjs", "bootstrap", "firebase", "reactjs", "vite"],
+  web_technologies = ["HTML", "CSS", "React", "Node.js", "Express", ""],
+  frameworks = ["reactjs", "Nodejs", "Bootstrap", "TailwindCSS", "Flask", "Spring Boot"],
   tools = ["Git", "GitHub", "VS Code", "Cursor", "Jupyter", "Docker"],
   cloud = ["AWS", "Google Cloud", "Vercel", "Netlify", "Firebase"],
   soft = ["Problem-Solving", "Critical-Thinking", "Adaptability", "Team-work", "Consistency"],
