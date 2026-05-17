@@ -1,49 +1,104 @@
-projects = [
+import React from 'react'
+import '../../Global.css'
+import './Projects.css'
+import ProjectContainer from './ProjectContainer'
+
+function Projects({
+
+projects=[
+
 {
-title: "SyncTalk",
+title:"SyncTalk",
+
 description:
 "Modern real-time chat application built using React, Node.js, Socket.IO and MongoDB supporting room-based communication and instant messaging.",
-technologies: [
+
+technologies:[
 "React",
 "Node.js",
 "Express.js",
 "Socket.IO",
 "MongoDB"
 ],
-image: "/images/synctalk.png",
-github: "https://github.com/roshankodi/synctalk",
-demo: "YOUR_DEPLOYED_LINK"
+
+image:"/images/synctalk.png",
+
+github:"https://github.com/roshankodi/synctalk",
+
+demo:"YOUR_DEPLOYED_LINK"
 },
 
 {
-title: "Car Price Prediction",
+title:"Car Price Prediction",
+
 description:
 "Machine learning project that predicts car prices using regression techniques with preprocessing, visualization, and model evaluation.",
-technologies: [
+
+technologies:[
 "Python",
 "Pandas",
 "NumPy",
 "Scikit-Learn",
 "Matplotlib"
 ],
-image: "/images/carprediction.png",
-github: "YOUR_GITHUB_LINK",
-demo: ""
+
+image:"/images/carprediction.png",
+
+github:"YOUR_GITHUB_LINK",
+
+demo:""
 },
 
 {
-title: "Portfolio Website",
+title:"Portfolio Website",
+
 description:
 "Responsive React portfolio showcasing projects, skills, certifications and achievements with a clean modern UI.",
-technologies: [
+
+technologies:[
 "React",
 "JavaScript",
 "HTML",
 "CSS",
 "GitHub Pages"
 ],
-image: "/images/portfolio.png",
-github: "https://github.com/roshankodi/portfolio-me",
-demo: "https://roshankodi.github.io/portfolio-me/"
+
+image:"/images/portfolio.png",
+
+github:"https://github.com/roshankodi/portfolio-me",
+
+demo:"https://roshankodi.github.io/portfolio-me/"
 }
+
 ]
+
+}) {
+
+return (
+
+<div className="projects">
+
+<h1 className='heading'>
+{"< Projects />"}
+</h1>
+
+<div className="projects-description">
+
+{projects.map((project,index)=>(
+
+<ProjectContainer
+key={index}
+project={project}
+/>
+
+))}
+
+</div>
+
+</div>
+
+)
+
+}
+
+export default Projects
