@@ -10,7 +10,7 @@ name = "Kodi Roshan",
 role = "Computer Science Engineering Student | Full-Stack & AI Developer",
 
 description =
-"I build responsive web applications, real-time systems, and AI-driven projects using modern technologies. My focus is on creating practical solutions through hands-on development while continuously learning, experimenting, and improving my technical skills.",
+"I build responsive web applications, real-time systems, and AI-driven projects using modern technologies. My focus is on creating practical solutions through hands-on development while continuously learning, experimenting, and improving my technical skills.  I am currently seeking new opportunities to grow my skills and contribute to a team.",
 
 email = "roshankodi019@gmail.com",
 
@@ -71,7 +71,7 @@ resume = "/resume.pdf"
             rel="noreferrer"
             href={`tel:${mobile}`}
           >
-            <Pill content="Call" />
+            <Pill content="Contact" />
           </a>
 
           <a
