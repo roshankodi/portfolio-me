@@ -1,40 +1,49 @@
-import React from 'react'
-import '../../Global.css'
-import './Projects.css'
-import ProjectContainer from './ProjectContainer'
-function Projects(
-    {
-        projects = [
-        {
-            title: "Project 1",
-            description: "This is a description of Project 1.",
-            technologies: ["JavaScript", "React", "Node.js", "Express"],
-            link: "https://github.com"
-        },
-        {
-            title: "Project 2",
-            description: "This is a description of Project 2.",
-            technologies: ["Python", "Django", "PostgreSQL", "Heroku"],
-            link: "https://github.com"
-        },
-        {
-            title: "Project 3",
-            description: "This is a description of Project 3.",
-            technologies: ["Ruby", "Rails", "SQLite", "Netlify", "Heroku"],
-            link: "https://github.com"
-        }
-        ]
-    }){
-  return (
-    <div className="projects">
-      <h1 className='heading'>{"< Projects />"}</h1>
-        <div className="projects-description">
-            {projects.map((project, index) => (
-            <ProjectContainer key={index} project={project} />
-            ))}
-        </div>
-    </div>
-  )
-}
+projects = [
+{
+title: "SyncTalk",
+description:
+"Modern real-time chat application built using React, Node.js, Socket.IO and MongoDB supporting room-based communication and instant messaging.",
+technologies: [
+"React",
+"Node.js",
+"Express.js",
+"Socket.IO",
+"MongoDB"
+],
+image: "/images/synctalk.png",
+github: "https://github.com/roshankodi/synctalk",
+demo: "YOUR_DEPLOYED_LINK"
+},
 
-export default Projects
+{
+title: "Car Price Prediction",
+description:
+"Machine learning project that predicts car prices using regression techniques with preprocessing, visualization, and model evaluation.",
+technologies: [
+"Python",
+"Pandas",
+"NumPy",
+"Scikit-Learn",
+"Matplotlib"
+],
+image: "/images/carprediction.png",
+github: "YOUR_GITHUB_LINK",
+demo: ""
+},
+
+{
+title: "Portfolio Website",
+description:
+"Responsive React portfolio showcasing projects, skills, certifications and achievements with a clean modern UI.",
+technologies: [
+"React",
+"JavaScript",
+"HTML",
+"CSS",
+"GitHub Pages"
+],
+image: "/images/portfolio.png",
+github: "https://github.com/roshankodi/portfolio-me",
+demo: "https://roshankodi.github.io/portfolio-me/"
+}
+]

@@ -8,13 +8,48 @@ import Hobbies from "./Hobbies";
 function About() {
   return (
     <div className="about">
-      <h1 className='heading'>{"<About />"}</h1>
+
+      <h1 className='heading'>
+        {"< About />"}
+      </h1>
+
       <div className="about-description">
+
         <Education />
-        <Interests interests={["Web Development", "Data Science", "Full-Stack Development"
-        , "Machine Learning", "Artificial Intelligence", "Cloud Computing (AWS)"]} />
-        <Hobbies hobbies={["Reading", "Writing", "Playing Guitar", "Cooking", "Playing Badminton", "Listening to Music", "Playing video games"]} />
+
+        <Interests
+          interests={[
+            "Full-Stack Development",
+            "Web Application Development",
+            "Artificial Intelligence",
+            "Machine Learning",
+            "Generative AI",
+            "Cloud Computing",
+            "System Design",
+            "Problem Solving",
+            "Hackathons",
+            "Competitive Programming"
+          ]}
+        />
+
+        <Hobbies
+          hobbies={[
+            "Exploring New Technologies",
+            "Reading Tech Blogs",
+            "Learning New Programming Languages",
+            "Building Projects",
+            "Reading Tech Articles",
+            "Playing Guitar",
+            "Cooking",
+            "Listening to Music",
+            "Fitness",
+            "Badminton",
+            "Chess"
+          ]}
+        />
+
       </div>
+
     </div>
   );
 }

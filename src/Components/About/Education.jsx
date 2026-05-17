@@ -6,24 +6,33 @@ import Timeline from "../Timeline/Timeline";
 function Education() {
   return (
     <div className="education">
-      <h2>{"<Education />"}</h2>
-        <Timeline events={[
-            {
-            date: "2024 - present",
-            title: "B.Tech in Computer Science Engineering",
-            description: "Jawaharlal Nehru Technological University of Hyderabad (JNTUH)"
-            },
-            {
+
+      <h2>{"< Education />"}</h2>
+
+      <Timeline
+        events={[
+
+          {
+            date: "2024 - Present",
+            title: "Bachelor of Technology (B.Tech) - Computer Science Engineering",
+            description: "Jawaharlal Nehru Technological University Hyderabad (JNTUH)"
+          },
+
+          {
             date: "2022 - 2024",
-            title: "Central Board of Secondary Education (CBSE) -MBIPC",
+            title: "CBSE - Senior Secondary Education (Class XII) | MPC",
             description: "Kendriya Vidyalaya, CRPF"
-            },
-            {
+          },
+
+          {
             date: "2022",
-            title: "Central Board of Secondary Education (CBSE)",
+            title: "CBSE - Secondary Education (Class X)",
             description: "Kendriya Vidyalaya, CRPF"
-            }
-        ]} />
+          }
+
+        ]}
+      />
+
     </div>
   )
 }

@@ -1,8 +1,26 @@
 .certifications{
     height: fit-content;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+
+    display:flex;
+    flex-direction:column;
+
+    justify-content:flex-start;
+    align-items:center;
+
+    width:100%;
+
+    padding:2rem 0;
 }
 
+.certificates{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    gap:2rem;
+
+    width:100%;
+}
