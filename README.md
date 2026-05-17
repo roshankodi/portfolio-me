@@ -1,69 +1,69 @@
-# 🌐 Portfolio Website
+# 🌐 Personal Portfolio Website
 
-A modern and responsive personal portfolio website built with **React.js** and deployed using **GitHub Pages**. This portfolio showcases my projects, technical skills, certifications, and contact information in a clean and interactive interface.
+A modern, responsive, and interactive portfolio website built with **React.js** to showcase my projects, technical skills, certifications, and experience. The portfolio serves as a central place to highlight my work, learning journey, and professional profile.
 
 ## 🚀 Live Demo
 
-🔗 https://roshankodi.github.io/portfolio-me/
+🔗 Portfolio Website: https://roshankodi.github.io/portfolio-me/
 
 ---
 
-# ✨ Features
+## ✨ Highlights
 
-* Responsive modern UI
-* Smooth navigation and clean layout
-* Skills section
-* Projects showcase
-* Certifications section
-* Resume download button
-* GitHub & LinkedIn integration
-* Dark mode support
-* GitHub Pages deployment
+- Modern and responsive UI
+- Interactive and clean design
+- Project showcase section
+- Skills and technologies section
+- Certifications section
+- Resume download functionality
+- GitHub & LinkedIn integration
+- Mobile-friendly design
+- Dark mode support
+- GitHub Pages deployment
 
 ---
 
-# 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 ### Frontend
+- React.js
+- JavaScript
+- HTML5
+- CSS3
 
-* React.js
-* JavaScript
-* HTML5
-* CSS3
+### Tools
+- Git
+- GitHub
+- VS Code
 
-### Tools & Platforms
-
-* Git
-* GitHub
-* VS Code
-* GitHub Pages
-* Vercel
-
-### Cloud & Technologies
-
-* AWS
-* Google Cloud
-* Netlify
+### Deployment
+- GitHub Pages
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
 ```bash
 portfolio-me/
+│
 ├── public/
+│   ├── resume.pdf
+│   └── images/
+│
 ├── src/
-│   ├── Components/
 │   ├── Assets/
+│   ├── Components/
 │   ├── App.js
 │   └── index.js
+│
 ├── package.json
-└── README.md
+├── README.md
+└── .gitignore
 ```
 
 ---
 
-# ⚙️ Installation & Setup
+## ⚙️ Installation & Setup
 
 Clone the repository:
 
@@ -71,7 +71,7 @@ Clone the repository:
 git clone https://github.com/roshankodi/portfolio-me.git
 ```
 
-Move into project directory:
+Move into the project directory:
 
 ```bash
 cd portfolio-me
@@ -83,19 +83,25 @@ Install dependencies:
 npm install
 ```
 
-Run locally:
+Start development server:
 
 ```bash
 npm start
 ```
 
+Open:
+
+```bash
+http://localhost:3000
+```
+
 ---
 
-# 🚀 Deployment
+## 🚀 Deployment
 
 This project is deployed using GitHub Pages.
 
-Deploy command:
+Deploy manually:
 
 ```bash
 npm run deploy
@@ -103,47 +109,51 @@ npm run deploy
 
 ---
 
-# 📸 Screenshots
+## 📸 Screenshots
 
-## Home Page
+### Home Page
 
 ![Portfolio Screenshot](./thumbnail.jpeg)
 
 ---
 
-# 📄 Resume
+## 📄 Resume
 
-You can download my resume directly from the portfolio website.
-
----
-
-# 📬 Contact
-
-### 👨‍💻 Roshan Kodi
-
-* 📧 Email: [roshankodi19@gmail.com](mailto:roshankodi19@gmail.com)
-* 💼 LinkedIn: [https://www.linkedin.com/in/kodi-roshan-78858b356/](https://www.linkedin.com/in/kodi-roshan-78858b356/)
-* 🐙 GitHub: [https://github.com/roshankodi](https://github.com/roshankodi)
+Resume can be accessed directly through the portfolio website.
 
 ---
 
-# 🌱 Future Improvements
+## 📬 Contact
 
-* Add more real-world projects
-* Improve animations and transitions
-* Add backend integration
-* Add blog section
-* Improve accessibility and SEO
-* Add project filtering and search
+### Kodi Roshan
 
----
+📧 Email: roshankodi019@gmail.com
 
-# ⭐ Support
+💼 LinkedIn:
+https://www.linkedin.com/in/kodi-roshan-78858b356/
 
-If you like this project, consider giving it a star on GitHub.
+🐙 GitHub:
+https://github.com/roshankodi
 
 ---
 
-# 📜 License
+## 🌱 Future Improvements
 
-This project is open-source and available under the MIT License.
+- Add additional real-world projects
+- Improve animations and interactions
+- Add project filtering
+- Improve accessibility
+- Improve SEO optimization
+- Add blog/articles section
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a star.
+
+---
+
+## 📜 License
+
+This project is available under the MIT License.
