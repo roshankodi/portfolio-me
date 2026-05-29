@@ -9,11 +9,11 @@ return (
 <div className="certificate">
 
 <div className="certificate-name">
-<h2>{certificate.title}</h2>
+<h2>{certificate.name}</h2>
 </div>
 
 <div className="certificate-from">
-<p>{certificate.issuer}</p>
+<p>{certificate.issuedBy}</p>
 </div>
 
 <div className="certificate-date">
