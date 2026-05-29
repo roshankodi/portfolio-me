@@ -10,6 +10,7 @@ padding:1.5rem;
 margin:1rem;
 
 width:320px;
+min-height:380px;   /* keeps cards same height */
 
 border:var(--border);
 
@@ -37,6 +38,8 @@ font-size:1.3rem;
 
 text-align:left;
 
+color:var(--secondary);
+
 }
 
 .certificate-from{
@@ -61,6 +64,8 @@ color:gray;
 
 }
 
+/* fixed skills section */
+
 .certificate-skills{
 
 display:flex;
@@ -68,6 +73,10 @@ display:flex;
 flex-wrap:wrap;
 
 gap:0.5rem;
+
+min-height:90px; /* keeps button aligned */
+
+align-content:flex-start;
 
 }
 
@@ -81,9 +90,15 @@ background-color:var(--mid);
 
 font-size:0.8rem;
 
+color:var(--secondary);
+
 }
 
+/* pushes button to bottom */
+
 .certificate-link{
+
+margin-top:auto;
 
 display:flex;
 
@@ -105,6 +120,10 @@ color:var(--primary);
 
 font-weight:600;
 
+width:100%;
+
+text-align:center;
+
 }
 
 @media screen and (max-width:768px){
@@ -112,6 +131,13 @@ font-weight:600;
 .certificate{
 
 width:80vw;
+min-height:auto;
+
+}
+
+.certificate-skills{
+
+min-height:auto;
 
 }
 

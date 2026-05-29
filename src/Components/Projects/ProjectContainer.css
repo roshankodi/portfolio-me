@@ -1,76 +1,112 @@
-.project-container{
+.project-container {
 
-display:flex;
-flex-direction:column;
+    display: flex;
+    flex-direction: column;
 
-width:350px;
+    width: 480px;
+    /* wider cards */
+    min-height: 700px;
 
-border-radius:20px;
+    border-radius: 20px;
 
-overflow:hidden;
+    overflow: hidden;
 
-background:white;
+    background: var(--primary);
 
-box-shadow:0 4px 15px rgba(0,0,0,0.1);
+    border: var(--border);
 
-transition:0.4s;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+
+    transition: 0.4s;
+
+    margin: 15px;
 }
 
-.project-container:hover{
+.project-container:hover {
 
-transform:translateY(-10px);
+    transform: translateY(-10px);
 
-box-shadow:0 8px 30px rgba(0,0,0,0.2);
-
-}
-
-.project-image img{
-
-width:100%;
-
-height:230px;
-
-object-fit:cover;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
 
 }
 
-.content{
+.project-image {
 
-padding:20px;
-
-display:flex;
-
-flex-direction:column;
-
-gap:15px;
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
 
 }
 
-.content h2{
+.project-image img {
 
-font-size:24px;
-
-margin:0;
-
-}
-
-.content p{
-
-line-height:1.6;
-
-font-size:15px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 
 }
 
-.technologies{
+.content {
 
-display:flex;
+    padding: 20px;
 
-gap:10px;
+    display: flex;
+    flex-direction: column;
 
-flex-wrap:wrap;
+    height: 100%;
+}
+
+/* project title */
+
+.content h2 {
+
+    font-size: 26px;
+    margin-bottom: 15px;
+
+    color: var(--secondary);
 
 }
+
+/* fixed description section */
+
+.content p {
+
+    color: var(--secondary);
+
+    line-height: 1.8;
+
+    font-size: 17px;
+    /* increased text size */
+
+    height: 150px;
+    /* more space for longer text */
+
+    overflow: hidden;
+
+    margin-bottom: 20px;
+
+}
+
+/* fixed skills section */
+
+.technologies {
+
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+    min-height: 75px;
+    /* reduced from 120 */
+
+    margin-bottom: 10px;
+    /* reduced from 20 */
+
+    align-content: flex-start;
+
+}
+
+/* buttons always at bottom */
 
 .project-buttons{
 
@@ -78,46 +114,78 @@ display:flex;
 
 gap:12px;
 
-margin-top:10px;
+margin-top:auto;   /* pushes buttons to bottom */
+
+padding-top:15px;
 
 }
 
 .github-btn,
-.demo-btn{
+.demo-btn {
 
-text-decoration:none;
+    text-decoration: none;
 
-padding:10px 20px;
+    padding: 10px 20px;
 
-border-radius:8px;
+    border-radius: 8px;
 
-font-weight:600;
+    font-weight: 600;
 
-transition:0.3s;
-
-}
-
-.github-btn{
-
-border:1px solid black;
+    transition: 0.3s;
 
 }
 
-.github-btn:hover{
+.github-btn {
 
-transform:scale(1.05);
+    border: 1px solid var(--secondary);
 
-}
+    color: var(--secondary);
 
-.demo-btn{
-
-background:black;
-color:white;
+    background: transparent;
 
 }
 
-.demo-btn:hover{
+.github-btn:hover {
 
-transform:scale(1.05);
+    background: var(--secondary);
+
+    color: var(--primary);
+
+}
+
+.demo-btn {
+
+    background: var(--secondary);
+
+    color: var(--primary);
+
+}
+
+.demo-btn:hover {
+
+    opacity: 0.85;
+
+}
+
+@media screen and (max-width:768px) {
+
+    .project-container {
+
+        width: 90%;
+        min-height: auto;
+
+    }
+
+    .content p {
+
+        height: auto;
+
+    }
+
+    .technologies {
+
+        min-height: auto;
+
+    }
 
 }

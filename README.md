@@ -1,6 +1,6 @@
 # 🌐 Personal Portfolio Website
 
-A modern, responsive, and interactive portfolio website built with **React.js** to showcase my projects, technical skills, certifications, and experience. The portfolio serves as a central place to highlight my work, learning journey, and professional profile.
+Modern responsive developer portfolio built with React.js showcasing projects, certifications, skills, achievements and downloadable resume support with clean UI/UX. The portfolio serves as a central place to highlight my work, learning journey, and professional profile.
 
 ## 🚀 Live Demo
 
@@ -8,36 +8,39 @@ A modern, responsive, and interactive portfolio website built with **React.js** 
 
 ---
 
+### 📄 Resume
+
+🔗 Resume: https://roshankodi.github.io/portfolio-me/resume.pdf
+
+---
+
 ## ✨ Highlights
 
 - Modern and responsive UI
-- Interactive and clean design
-- Project showcase section
-- Skills and technologies section
-- Certifications section
-- Resume download functionality
+- Interactive and clean user experience
+- Professional project showcase
+- Technical skills categorization
+- Certification portfolio with PDF access
+- Resume integration
 - GitHub & LinkedIn integration
-- Mobile-friendly design
+- Mobile-first responsive design
 - Dark mode support
 - GitHub Pages deployment
 
 ---
 
-## 🛠️ Tech Stack
+### Technologies Featured
 
-### Frontend
 - React.js
 - JavaScript
 - HTML5
 - CSS3
-
-### Tools
-- Git
-- GitHub
-- VS Code
-
-### Deployment
+- Git & GitHub
 - GitHub Pages
+- Responsive Design
+- REST APIs
+- AI & Machine Learning Projects
+- Full-Stack Development
 
 ---
 
@@ -117,12 +120,6 @@ npm run deploy
 
 ---
 
-## 📄 Resume
-
-Resume can be accessed directly through the portfolio website.
-
----
-
 ## 📬 Contact
 
 ### Kodi Roshan
@@ -139,12 +136,13 @@ https://github.com/roshankodi
 
 ## 🌱 Future Improvements
 
-- Add additional real-world projects
-- Improve animations and interactions
-- Add project filtering
-- Improve accessibility
-- Improve SEO optimization
-- Add blog/articles section
+- Add more full-stack and AI projects
+- Showcase internship and professional experience
+- Integrate LinkedIn certificate posts
+- Add project filtering and search
+- Improve accessibility and SEO
+- Add technical blog/articles section
+- Add project analytics dashboard
 
 ---
 

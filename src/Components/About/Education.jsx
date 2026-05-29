@@ -20,7 +20,7 @@ function Education() {
 
           {
             date: "2022 - 2024",
-            title: "CBSE - Senior Secondary Education (Class XII) | MPC",
+            title: "CBSE - Senior Secondary Education (Class XII) | MBPC",
             description: "Kendriya Vidyalaya, CRPF"
           },
 

@@ -5,69 +5,126 @@ import Certificate from './Certificate'
 
 function Certifications({
 
-certifications=[
+certificates = [
 
 {
-title:"Google AI Essentials",
-issuer:"Google",
-date:"May 2026",
-skills:[
+name: "Google AI Essentials",
+issuedBy: "Google",
+date: "2026",
+skills: [
 "Generative AI",
 "Prompt Engineering",
 "AI Tools"
 ],
-link:"YOUR_LINKEDIN_POST_LINK"
+link: "./certificates/google-ai-essentials.pdf"
 },
 
 {
-title:"AWS Cloud Practitioner Essentials",
-issuer:"AWS",
-date:"May 2026",
-skills:[
-"Cloud Computing",
-"EC2",
-"S3",
-"IAM"
+name: "Google AI Professional",
+issuedBy: "Google",
+date: "2026",
+skills: [
+"Generative AI",
+"LLMs",
+"AI Applications"
 ],
-link:"YOUR_LINKEDIN_POST_LINK"
+link: "./certificates/google-ai-professional.pdf"
 },
 
 {
-title:"Git and GitHub",
-issuer:"Coursera",
-date:"May 2026",
-skills:[
-"Git",
-"GitHub",
-"Version Control"
+name: "Google Prompting Essentials",
+issuedBy: "Google",
+date: "2026",
+skills: [
+"Prompt Engineering",
+"LLMs",
+"AI Interaction"
 ],
-link:"YOUR_LINKEDIN_POST_LINK"
+link: "./certificates/google-prompting-essentials.pdf"
 },
 
 {
-title:"Python for Data Science",
-issuer:"IBM",
-date:"May 2026",
-skills:[
+name: "Google Data Analytics with Python",
+issuedBy: "Google",
+date: "2026",
+skills: [
 "Python",
 "Pandas",
-"NumPy",
 "Data Analysis"
 ],
-link:"YOUR_LINKEDIN_POST_LINK"
+link: "./certificates/google-data-analysis-with-python.pdf"
 },
 
 {
-title:"Web Development Fundamentals",
-issuer:"Coursera",
-date:"May 2026",
-skills:[
-"HTML",
-"CSS",
-"JavaScript",
-"React"
+name: "Google IT Automation with Python",
+issuedBy: "Google",
+date: "2026",
+skills: [
+"Python",
+"Automation",
+"Scripting"
 ],
-link:"YOUR_LINKEDIN_POST_LINK"
+link: "./certificates/google-it-automation.pdf"
+},
+
+{
+name: "IBM AI Developer",
+issuedBy: "IBM",
+date: "2026",
+skills: [
+"Python",
+"AI Development",
+"Machine Learning"
+],
+link: "./certificates/ibm-ai-devp.pdf"
+},
+
+{
+name: "IBM GenAI with LLMs",
+issuedBy: "IBM",
+date: "2026",
+skills: [
+"Generative AI",
+"LLMs",
+"Prompt Engineering"
+],
+link: "./certificates/ibm-genai-with-llm.pdf"
+},
+
+{
+name: "IBM RAG & Agentic AI",
+issuedBy: "IBM",
+date: "2026",
+skills: [
+"RAG",
+"Agentic AI",
+"Vector Databases"
+],
+link: "./certificates/ibm-rag-agentic-ai.pdf"
+},
+
+{
+name: "Google Cybersecurity",
+issuedBy: "Google",
+date: "2026",
+skills: [
+"Cybersecurity",
+"Network Security",
+"Risk Management"
+],
+link: "./certificates/google-cybersecurity.pdf"
+},
+
+{
+name: "Microsoft Power BI Analyst",
+issuedBy: "Microsoft",
+date: "2026",
+skills: [
+"Power BI",
+"Data Visualization",
+"Business Intelligence"
+],
+link: "./certificates/microsoft-power-bi-analyst.pdf"
 }
 
 ]
@@ -84,7 +141,7 @@ return (
 
 <div className="certificates">
 
-{certifications.map((certificate,index)=>(
+{certificates.map((certificate,index)=>(
 
 <Certificate
 key={index}

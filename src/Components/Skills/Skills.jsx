@@ -15,8 +15,8 @@ programming_languages = [
 
 fundamentals = [
 "Data Structures & Algorithms",
-"OOP",
-"DBMS",
+"Object-Oriented Programming",
+"Database Management Systems",
 "Operating Systems",
 "Computer Networks",
 "Software Engineering"
@@ -27,11 +27,13 @@ web_technologies = [
 "CSS3",
 "JavaScript",
 "REST APIs",
-"JSON"
+"JSON",
+"Responsive Design"
 ],
 
 frameworks = [
 "React",
+"Next.js",
 "Node.js",
 "Express.js",
 "Tailwind CSS",
@@ -50,34 +52,36 @@ tools = [
 "Git",
 "GitHub",
 "VS Code",
-"Jupyter Notebook",
 "Postman",
-"Docker"
+"Docker",
+"Jupyter Notebook"
 ],
 
 cloud = [
 "AWS",
+"Google Cloud",
 "Vercel",
 "Netlify",
 "Render"
 ],
 
 ai = [
+"Generative AI",
+"Machine Learning",
 "NumPy",
 "Pandas",
 "Scikit-Learn",
-"PyTorch",
 "TensorFlow",
-"Generative AI"
+"PyTorch"
 ],
 
 soft = [
 "Communication",
 "Problem Solving",
-"Crtitcal Thinking",
-"Professional Work Skills",
+"Critical Thinking",
 "Team Collaboration",
 "Adaptability",
+"Professional Work Skills",
 "Personal Effectiveness"
 ]
 

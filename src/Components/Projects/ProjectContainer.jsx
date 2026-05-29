@@ -5,69 +5,69 @@ import Pill from '../Pill/Pill'
 
 function ProjectContainer({ project }) {
 
-return (
+  return (
 
-<div className="project-container">
+    <div className="project-container">
 
-<div className="project-image">
+      <div className="project-image">
 
-<img
-src={project.image}
-alt={project.title}
-/>
+        <img
+          src={project.image || "./images/default-project.png"}
+          alt={`${project.title} Screenshot`}
+        />
 
-</div>
+      </div>
 
-<div className="content">
+      <div className="content">
 
-<h2>{project.title}</h2>
+        <h2>{project.title}</h2>
 
-<p>{project.description}</p>
+        <p>{project.description}</p>
 
-<div className="technologies">
+        <div className="technologies">
 
-{project.technologies.map((technology,index)=>(
+          {project.technologies.map((technology, index) => (
 
-<Pill
-key={index}
-content={technology}
-/>
+            <Pill
+              key={index}
+              content={technology}
+            />
 
-))}
+          ))}
 
-</div>
+        </div>
 
-<div className="project-buttons">
+        <div className="project-buttons">
 
-<a
-className="github-btn"
-href={project.github}
-target="_blank"
-rel="noreferrer"
->
-GitHub
-</a>
+          <a
+            className="github-btn"
+            href={project.github}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
 
-{project.demo && (
+          {project.demo && (
 
-<a
-className="demo-btn"
-href={project.demo}
-target="_blank"
-rel="noreferrer"
->
-Live Demo
-</a>
+            <a
+              className="demo-btn"
+              href={project.demo}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live Demo
+            </a>
 
-)}
+          )}
 
-</div>
+        </div>
 
-</div>
+      </div>
 
-</div>
+    </div>
 
-)
+  )
 
 }
 

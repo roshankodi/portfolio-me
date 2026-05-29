@@ -5,69 +5,77 @@ import ProjectContainer from './ProjectContainer'
 
 function Projects({
 
-projects=[
+projects = [
 
 {
-title:"SyncTalk",
-
+title: "StudySync",
 description:
-"Modern real-time chat application built using React, Node.js, Socket.IO and MongoDB supporting room-based communication and instant messaging.",
-
-technologies:[
-"React",
-"Node.js",
-"Express.js",
-"Socket.IO",
-"MongoDB"
+"AI-powered personalized learning platform with document analysis, quiz generation, AI summaries, learning analytics and secure authentication.",
+technologies: [
+"Next.js",
+"TypeScript",
+"Prisma",
+"Supabase",
+"Gemini AI",
+"Redis",
+"tRPC"
 ],
-
-image:"/images/synctalk.png",
-
-github:"https://github.com/roshankodi/synctalk",
-
-demo:"YOUR_DEPLOYED_LINK"
+image: "./images/studysync.png",
+github: "https://github.com/roshankodi/StudySync",
+demo: "https://studysync-8v0b.onrender.com"
 },
 
 {
-title:"Car Price Prediction",
-
+title: "SyncTalk",
 description:
-"Machine learning project that predicts car prices using regression techniques with preprocessing, visualization, and model evaluation.",
+"Real-time chat application with room-based messaging, persistent chat history, authentication, dark/light mode support and a responsive user interface built for seamless communication.",
+technologies: [
+"React",
+"Vite",
+"Tailwind CSS",
+"Socket.IO",
+"Node.js",
+"Express.js",
+"MongoDB"
+],
+image: "./images/synctalk.png",
+github: "https://github.com/roshankodi/SyncTalk",
+demo: "https://synctalk.vercel.app"
+},
 
-technologies:[
+{
+title: "Car Price Prediction",
+description:
+"Machine learning web application that predicts car resale prices using data preprocessing, feature engineering and regression models integrated through a Flask backend.",
+technologies: [
 "Python",
+"Flask",
 "Pandas",
 "NumPy",
 "Scikit-Learn",
-"Matplotlib"
+"Bootstrap"
 ],
-
-image:"/images/carprediction.png",
-
-github:"YOUR_GITHUB_LINK",
-
-demo:""
+image: "./images/carprediction.png",
+github: "https://github.com/roshankodi/car-price-prediction",
+demo: "https://car-price-prediction-vert.vercel.app"
 },
 
 {
-title:"Portfolio Website",
-
+title: "Portfolio Website",
 description:
-"Responsive React portfolio showcasing projects, skills, certifications and achievements with a clean modern UI.",
-
-technologies:[
+"Modern responsive developer portfolio built with React.js showcasing projects, certifications, skills, achievements and downloadable resume support with clean UI/UX.",
+technologies: [
 "React",
 "JavaScript",
 "HTML",
 "CSS",
-"GitHub Pages"
+"Git",
+"GitHub Pages",
+"Responsive Design"
 ],
-
-image:"/images/portfolio.png",
-
-github:"https://github.com/roshankodi/portfolio-me",
-
-demo:"https://roshankodi.github.io/portfolio-me/"
+image: "./images/portfolio.png",
+github: "https://github.com/roshankodi/portfolio-me",
+demo: "https://roshankodi.github.io/portfolio-me/"
 }
 
 ]

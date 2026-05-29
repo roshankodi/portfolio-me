@@ -20,7 +20,7 @@ linkedin = "https://www.linkedin.com/in/kodi-roshan-78858b356/",
 
 github = "https://github.com/roshankodi",
 
-resume = "/resume.pdf"
+resume = "https://roshankodi.github.io/portfolio-me/resume.pdf"
 
 }) {
 
@@ -71,7 +71,7 @@ resume = "/resume.pdf"
             rel="noreferrer"
             href={`tel:${mobile}`}
           >
-            <Pill content="Contact" />
+            <Pill content="Call" />
           </a>
 
           <a

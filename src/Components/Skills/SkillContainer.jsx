@@ -1,21 +1,26 @@
-import React from 'react'
-import '../../Global.css'
-import './SkillContainer.css'
-import Pill from '../Pill/Pill'
+import React from "react";
+import "./SkillContainer.css";
+import Pill from "../Pill/Pill";
 
-function SkillContainer({ title, skills }) {
+function SkillContainer({ title, skills = [] }) {
   return (
     <div className="skill-container">
-        <h2>{title}</h2>
-        <div className="skills-list">
-            {skills.map((skill, index) => (
-                <div key={index} className="skill">
-                    <Pill content={skill} />
-                </div>
-            ))}
-        </div>
+
+      <h2>{title}</h2>
+
+      <div className="skills-list">
+
+        {skills.map((skill, index) => (
+          <Pill
+            key={index}
+            content={skill}
+          />
+        ))}
+
+      </div>
+
     </div>
-  )
+  );
 }
 
-export default SkillContainer
+export default SkillContainer;
