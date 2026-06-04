@@ -20,7 +20,9 @@ linkedin = "https://www.linkedin.com/in/kodi-roshan/",
 
 github = "https://github.com/roshankodi",
 
-resume = "https://roshankodi.github.io/portfolio-me/resume.pdf"
+resume = "https://roshankodi.github.io/portfolio-me/resume.pdf",
+
+leetcode = "https://leetcode.com/u/roshankodi/"
 
 }) {
 
@@ -88,6 +90,14 @@ resume = "https://roshankodi.github.io/portfolio-me/resume.pdf"
             href={github}
           >
             <Pill content="GitHub" />
+          </a>
+
+                    <a
+            target="_blank"
+            rel="noreferrer"
+            href={leetcode}
+          >
+            <Pill content="leetcode" />
           </a>
 
         </div>
