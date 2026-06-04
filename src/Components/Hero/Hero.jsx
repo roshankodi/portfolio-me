@@ -10,13 +10,13 @@ name = "Kodi Roshan",
 role = "Computer Science Engineering Student | Full-Stack & AI Developer",
 
 description =
-"I build responsive web applications, real-time systems, and AI-driven projects using modern technologies. My focus is on creating practical solutions through hands-on development while continuously learning, experimenting, and improving my technical skills.  I am currently seeking new opportunities to grow my skills and contribute to a team.",
+"I am a Computer Science Engineering student passionate about software engineering, full-stack development, and AI-powered applications. I build scalable web platforms, real-time systems, and intelligent software solutions that solve real-world problems. Through hands-on projects and continuous learning, I enjoy exploring modern technologies, designing efficient systems, and growing as a software engineer.",
 
 email = "roshankodi019@gmail.com",
 
 mobile = "+91 8985797819",
 
-linkedin = "https://www.linkedin.com/in/kodi-roshan-78858b356/",
+linkedin = "https://www.linkedin.com/in/kodi-roshan/",
 
 github = "https://github.com/roshankodi",
 

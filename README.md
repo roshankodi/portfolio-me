@@ -127,7 +127,7 @@ npm run deploy
 📧 Email: roshankodi019@gmail.com
 
 💼 LinkedIn:
-https://www.linkedin.com/in/kodi-roshan-78858b356/
+https://www.linkedin.com/in/kodi-roshan/
 
 🐙 GitHub:
 https://github.com/roshankodi
