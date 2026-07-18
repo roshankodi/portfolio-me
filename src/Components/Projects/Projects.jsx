@@ -23,7 +23,7 @@ technologies: [
 ],
 image: "./images/studysync.png",
 github: "https://github.com/roshankodi/StudySync",
-demo: "https://studysync-g941.onrender.com/"
+demo: "https://studysync-v2.onrender.com"
 },
 
 {
